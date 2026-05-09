@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingBag, X, Plus, Minus, MapPin, Phone, ChevronRight, Clock, Star, ArrowRight, Camera, Leaf, Trophy, Award, Heart, Sparkles, Gift, TrendingUp, Utensils, Wind, Globe, Mail, CheckCircle, ChefHat, Flame, BookOpen, Zap, Share2, Cake, Send, Calendar, Scan, MessageCircle, Instagram } from 'lucide-react';
+import { ShoppingBag, X, Plus, Minus, MapPin, Phone, ChevronRight, Clock, Star, ArrowRight, Camera, Leaf, Trophy, Award, Heart, Sparkles, Gift, TrendingUp, Utensils, Wind, Globe, Mail, CheckCircle, ChefHat, Flame, BookOpen, Zap, Share2, Cake, Send, Calendar, Scan, MessageCircle } from 'lucide-react';
 
 // Data produk
 const products = [
@@ -527,7 +527,7 @@ export default function App() {
             </p>
             <div className="flex gap-4">
               <a href="https://instagram.com/eclat.bakery" target="_blank" rel="noreferrer" className="p-2 bg-white/5 hover:bg-[#C5A059] text-[#A39E93] hover:text-white rounded-full transition-all" title="Instagram">
-                <Instagram className="w-5 h-5" />
+                <Camera className="w-5 h-5" />
               </a>
               <a href="https://wa.me/6289699437888" target="_blank" rel="noreferrer" className="p-2 bg-white/5 hover:bg-[#C5A059] text-[#A39E93] hover:text-white rounded-full transition-all" title="WhatsApp">
                 <MessageCircle className="w-5 h-5" />
